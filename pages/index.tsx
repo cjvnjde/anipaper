@@ -45,7 +45,7 @@ const Anime = () => {
         isLoading ? (
           <span>loading</span>
         ) : (
-          data?.pages.reduce((data, page) => {
+          data?.pages?.reduce((data, page) => {
             return [...data, ...page];
           }, []).map(image => {
             return (
