@@ -11,10 +11,7 @@ const nextConfig = {
     dest: "public",
     runtimeCaching,
     register: true,
-    skipWaiting: true,
-    fallbacks: {
-      document: "/pages/offline.tsx",
-    },
+    skipWaiting: true
   },
 };
 
